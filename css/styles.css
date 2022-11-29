@@ -157,13 +157,15 @@ body {
 }
 
 .address {
+  background-color: grey;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
 
   letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .section-title {
@@ -230,4 +232,57 @@ body {
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+
+.ourtaem h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.ourtaem p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.portfolio {
+  text-decoration: none;
+}
+
+.portfolio-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: var(--text-color);
+}
+
+.portfolio-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
