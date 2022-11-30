@@ -1,6 +1,10 @@
 :root {
   --text-color: #212121;
   --text-hover-color: #2196f3;
+  --text-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --background-footer: #2f303a;
+  --text-section: #f5f4fa;
 }
 ul {
   list-style: none;
@@ -10,7 +14,7 @@ ul {
 
 body {
   font-family: Roboto, sans-serif;
-  color: #212121;
+  color: var(--text-color);
 }
 .header-menu {
   font-style: normal;
@@ -28,7 +32,6 @@ body {
 .button {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 26px;
   text-decoration: none;
@@ -36,16 +39,15 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #f5f4fa;
-  background-color: #2196f3;
   border-radius: 4px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  background-color: --text-hover-color;
-  cursor: pointer;
+  background-color: var(--text-hover-color);
+  color: var(--text-white-color);
 }
 .link {
   text-decoration: none;
@@ -56,7 +58,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .link:hover,
 .link:focus {
@@ -76,15 +78,18 @@ body {
 }
 
 .web {
-  color: #2196f3;
+  color: var(--text-hover-color);
 }
 
 .studio {
-  color: #212121;
+  color: var(--text-color);
+}
+
+.footer {
+  background: var(--background-footer);
 }
 
 .logo-footer {
-  background-color: gray;
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -93,15 +98,15 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--text-white-color);
 }
 
 .web-footer {
-  color: #2196f3;
+  color: var(--text-hover-color);
 }
 
 .studio-footer {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .contacts-header a {
@@ -112,11 +117,11 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts-header a:hover,
 .contacts-header a:focus {
-  color: #2196f3;
+  color: var(--text-hover-color);
 }
 
 .contacts-footer a {
@@ -133,7 +138,7 @@ body {
 
 .contacts-footer a:hover,
 .contacts-footer a:focus {
-  color: #2196f3;
+  color: var(--text-hover-color);
 }
 
 .site-nav .link {
@@ -145,19 +150,18 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 
-  color: #212121;
+  color: var(--text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--text-hover-color);
 }
 .site-nav .active.link {
-  color: #2196f3;
+  color: var(--text-hover-color);
 }
 
 .address {
-  background-color: grey;
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -165,16 +169,14 @@ body {
   line-height: 24px;
 
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--text-white-color);
 }
 
 .section-title {
-  background: #2f303a;
+  background: var(--background-footer);
 }
 
 .section-title .title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -183,31 +185,26 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--text-white-color);
 }
 
 .qualities {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--text-color);
 }
 
 .personal-qualities p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .work-title {
@@ -219,7 +216,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-color);
+}
+
+.section-team {
+  background: var(--text-section);
 }
 
 .ourtaem-title {
@@ -231,7 +232,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-color);
 }
 
 .ourtaem h3 {
@@ -244,7 +245,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-color);
 }
 .ourtaem p {
   font-family: "Roboto";
@@ -256,7 +257,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .portfolio {
@@ -284,5 +285,5 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
