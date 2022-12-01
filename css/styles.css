@@ -22,18 +22,35 @@ body {
   font-size: 14px;
   line-height: 16px;
 }
-.logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
+
+.btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--text-white-color);
+  background-color: var(--text-hover-color);
+  border: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
 }
 
 .button {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-decoration: none;
   text-align: center;
 
@@ -106,7 +123,7 @@ body {
 }
 
 .studio-footer {
-  color: var(--text-color);
+  color: var(--text-white-color);
 }
 
 .contacts-header a {
@@ -142,8 +159,6 @@ body {
 }
 
 .site-nav .link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -162,8 +177,6 @@ body {
 }
 
 .address {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -208,8 +221,6 @@ body {
 }
 
 .work-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -224,8 +235,6 @@ body {
 }
 
 .ourtaem-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -236,8 +245,6 @@ body {
 }
 
 .ourtaem h3 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -248,8 +255,6 @@ body {
   color: var(--text-color);
 }
 .ourtaem p {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -265,8 +270,6 @@ body {
 }
 
 .portfolio-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -277,8 +280,6 @@ body {
 }
 
 .portfolio-description {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
